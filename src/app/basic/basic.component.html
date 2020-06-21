@@ -1,0 +1,30 @@
+<mat-list>
+    <a href="" mat-list-item></a>
+</mat-list>
+<div class="container" id="counter">
+    <h1>Counter</h1>
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-4">
+                
+                    <div class="row">
+                    <button class="btn btn-danger" (click)="decrease()">Decrease</button>
+                    </div>
+                    <div class="row">
+                    <button class="btn btn-primary"(click)="increase()" >Increase</button>
+                    </div>
+                    <div class="row">
+                    <button class="btn btn-info" (click)="reset()">Reset</button>
+                    </div>
+                
+            </div>
+            <div class="col-4">
+                <div class="countValue">
+                    <label *ngIf="n==0" class="text-primary">{{n}}</label>
+                    <label *ngIf="n>0" class="text-success">{{n}}</label>
+                    <label *ngIf="n<0" class="text-danger">{{n}}</label>
+                </div>
+            </div>
+    </div>
+</div>

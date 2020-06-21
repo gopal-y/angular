@@ -1,0 +1,40 @@
+.box {
+align-items: center;
+width:30%;
+height:30%;
+}
+
+.countValue {
+    align-items: center;
+    width:60%;
+    height:60%;
+    
+}
+.countValue label {
+        font-size: 10rem;
+}
+.row {
+padding-top: 50px;
+}
+.row .box {
+    padding-top:100px;
+}
+.btn {
+    width:6em;
+
+}
+ .btn-primary:hover {
+    background: white;
+    color: #00a0ff;
+
+}
+.btn-danger:hover {
+    background: white;
+    color: red;
+
+}
+.btn-info:hover {
+    background: white;
+    color: #00ffff;
+
+}

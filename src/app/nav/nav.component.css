@@ -1,0 +1,39 @@
+.sidenav-container {
+  background: linear-gradient(orange,black);
+  height: 100%;
+}
+
+.sidenav {
+  background: black;
+  width: 200px;
+  
+}
+.mat-toolbar,.mat-list-item  {
+  background: black;
+  color:white;
+}
+.mat-list-item:hover {
+  background: white;
+  text-decoration: underline;
+  color:black;
+}
+
+.sidenav .mat-side-nav  {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+a:-webkit-any-link {
+  text-decoration: none;
+}
+span a{
+  color: white;
+}
+.mat-toolbar .logo:hover {
+  border-color: white !important; 
+  border-radius: 0.5rem !important;
+}
