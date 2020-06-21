@@ -43,16 +43,17 @@ export class BasicComponent implements OnInit {
     this.n = 0;
   }
   colorSwitch() {
+    const nod = document.getElementsByTagName('mat-sidenav-content')[0] as HTMLElement;
     this.c += 1;
     switch (this.c) {
       case 1:
-        document.getElementsByTagName('mat-sidenav-content')[0].style.background = 'Green';
+        nod.style.background = 'Green';
         break;
       case 2:
-        document.getElementsByTagName('mat-sidenav-content')[0].style.background = 'Pink';
+        nod.style.background = 'Pink';
         break;
       case 3:
-        document.getElementsByTagName('mat-sidenav-content')[0].style.background = 'Orange';
+        nod.style.background = 'Orange';
         break;
       default:
         this.c =0;
