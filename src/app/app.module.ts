@@ -14,7 +14,7 @@ import { MatListModule } from '@angular/material/list';
 import { BasicComponent } from './basic/basic.component';
 import { MediumComponent } from './medium/medium.component';
 import { AdvancedComponent } from './advanced/advanced.component';
-
+import {MatTabsModule} from '@angular/material/tabs';
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,7 +32,8 @@ import { AdvancedComponent } from './advanced/advanced.component';
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
